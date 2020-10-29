@@ -6,6 +6,7 @@ ARG OKD_CLI_REL=v3.11.0
 ARG OKD_CLI_TARBALL=openshift-origin-client-tools-v3.11.0-0cbc58b-linux-64bit.tar.gz
 ARG WORKDIR=/opt/app/src
 
+
 LABEL org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.name="Open Innovation Platform OKD/OCP/Kubernetes Tools image" \
       org.label-schema.description="This image provides various tools simplifying user experience on the OIP." \
