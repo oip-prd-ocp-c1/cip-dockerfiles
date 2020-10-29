@@ -37,8 +37,7 @@ RUN yum -y $YUM_OPTS update && \
     mkdir -p /usr/local/lib/python3.6/site-packages/ && \
     easy_install-3.6 pip && \
     yum install -y https://download.postgresql.org/pub/repos/yum/9.6/redhat/rhel-7-x86_64/pgdg-redhat-repo-latest.noarch.rpm && \
-    yum install -y postgresql96 && \
-    yum install -y postgresql10 && \
+    yum install -y postgresql11 && \
     yum clean all && \
     rm -rf /var/cache/yum
 
