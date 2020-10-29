@@ -68,5 +68,4 @@ CMD [ "/bin/bash" ]
 RUN chmod g=u /etc/passwd && \
     chgrp -R 0 $WORKDIR && \
     chmod -R g=u $HOME $WORKDIR
-ENTRYPOINT ["/entrypoint.sh"]
 USER 1001
